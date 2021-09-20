@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html>
-    <head>
-	<meta charset="utf-8">
-    	<title>Задание 1.</title>
-    </head>
-    <body>
-        <ol>
+	<head>
+		<meta charset= "UTF-8">
+		<link rel="styles" href="color.css">
+		<title>Задание 2.</title>
+	</head>
+	<body>
+		<header class="logo">
+			<img style="float:left" src="https://i.pinimg.com/originals/f6/38/e1/f638e1af2445f8a802607125f7fff4f3.jpg" height="100" alt="Лого" />
+			<div style="margin:0 auto"><h1>Название сайта</h1></div>
+		</header>
+			<nav class="link">
+				<a href="#giper">Гиперссылки</a>
+				<a href="#form">Форма</a>
+				<a href="#table1">Таблица</a>
+				<a href="#bas">Подвал</a>
+			</nav>
+			
+		<table class="giperlink" id="giper">
+		 <ol>
             <li><a href="http://example.com">Абсолютная гиперссылка на главную страницу сайта;</a></li>
             <li><a href="https://example.com">Абсолютная гиперссылка на главную сайта (https);</a></li>
             <li><a href="ftp://example.com/text.txt">Ссылка на файл на сервере FTP без авторизации;</a></li>
@@ -39,8 +52,55 @@
             <li><a href="/main">Сокращенная ссылка на главную страницу;</a></li>
             <li><a href="/internal">Сокращенная ссылка на внутреннюю страницу;</a></li>
         </ol>
+		</table>
+			
+		<table class="tabl" id="table1">
+			<caption><h4>Количество баллов</h4></caption>
+				<tr class="nechet">
+				<th>№</th>
+				<th>Предмет</th>
+				<th>Баллы</th>
+			</tr>
+			
+			<tr class="chet">
+				<td>1</td>
+				<td>Математика</td>
+				<td>74</td>
+			</tr>
+  
+			<tr class="nechet">
+				<td>2</td>
+				<td>Русский язык</td>
+				<td>83</td>
+			</tr>
+  
+			<tr class="chet">
+				<td>3</td>
+				<td>Информатика</td>
+				<td>80</td>
+			</tr>
+  
+			<tr class="nechet">
+				<td>4</td>
+				<td>Литература</td>
+				<td>91</td>
+			</tr>
+  
+			<tr class="chet">
+				<td>5</td>
+				<td>Химия</td>
+				<td>90</td>
+			</tr>
+  
+			<tr class="nechet">
+				<td colspan="2">Всего баллов</td>
+				<td>418</td>
+				</tr>
+		</table>
 
-         <form action="/"
+		<div class="for" id="form">
+			<h4>Форма</h4>
+			<h4><form action="/"
                method="POST">
             <label>
                 Ваше ФИО:
@@ -161,6 +221,11 @@
 
             <br>
             <input type="submit" value="Принять условия и Отправить" />
-        </form>
-    </body>
+        </h4></form>
+		</div>
+
+		<footer class="basement" id="bas">
+			<h4>Квардакова Анастасия. 2 курс, группа 27/2, ФКТиПМ</h4>
+		</footer>
+	</body>
 </html>
